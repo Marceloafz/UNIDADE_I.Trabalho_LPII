@@ -30,12 +30,12 @@
                         <img src="images/logo-primary.png" alt="Chain Logo" >
                     </div>
                     <br />
-                    <h4 class="text-center mb5">Create a new account</h4>
-                    <p class="text-center">Please enter your credentials below</p>
+                    <h4 class="text-center mb5">Crie sua conta</h4>
+                    <p class="text-center">Cadastre</p>
                     
                     <div class="mb30"></div>
                     
-                    <form action="http://themepixels.com/demo/webpage/chain/signin.html" method="post">
+                    <form action="/dashboard" method="get">
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="input-group mb15">
@@ -70,18 +70,23 @@
                             <div class="pull-left">
                                 <div class="ckbox ckbox-primary mt5">
                                     <input type="checkbox" id="agree" value="1">
-                                    <label for="agree">I agree with <a href="#">Terms and Conditions</a></label>
+                                    <label for="agree">Eu concordo <a href="#">Termos e Condições</a></label>
                                 </div>
                             </div>
                             <div class="pull-right">
-                                <button type="submit" class="btn btn-success">Create New Account <i class="fa fa-angle-right ml5"></i></button>
+                                <button type="submit" class="btn btn-success"> Criar Conta <i class="fa fa-angle-right ml5"></i></button>
                             </div>
                         </div>
                     </form>
                     
+                    <form action="/usuariocadastro" method="get">
+	<div class="pull-left">
+	<button type="submit" class="btn btn-success">Entre<i class="fa fa-angle-right ml5"></i></button>
+	</div>
+                    
                 </div><!-- panel-body -->
                 <div class="panel-footer">
-                    <a href="/signin" class="btn btn-primary btn-block">Already a Member? Sign In</a>
+                    <a href="/signin" class="btn btn-primary btn-block">Já é membro? Entre</a>
                 </div><!-- panel-footer -->
             </div><!-- panel -->
             
